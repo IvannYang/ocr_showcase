@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>OCR: DiffusionNFT vs ROOT (K=1)</title>
+<style>body{font-family:sans-serif;margin:24px}table{border-collapse:collapse}td,th{padding:4px;border:1px solid #ddd}img{width:128px}section{margin:32px 0;overflow:auto}</style></head><body>
+<h1>OCR: DiffusionNFT vs ROOT (K=1)</h1><p>Fixed held-out cases and per-case seeds; EMA, 40-step Flow, CFG=1, 512×512. <strong>These 16 cases are for qualitative illustration only and do not represent statistical results on the full test set.</strong> Columns show completed training outer iterations; 0 denotes the base model. Click images for full resolution.</p>
+<section><h2>Case 0 · seed 42</h2><p>A high-fashion runway with a sleek, modern backdrop displaying &quot;Spring Collection 2024&quot;. Models walk confidently on the catwalk, showcasing vibrant, floral prints and pastel tones, under soft, ambient lighting that enhances the fresh, spring vibe.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0001.png"><img src="images/0001.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0002.png"><img src="images/0002.png"></a><br>OCR 0.4000</td>
+<td><a href="images/0003.png"><img src="images/0003.png"></a><br>OCR 0.2000</td>
+<td><a href="images/0004.png"><img src="images/0004.png"></a><br>OCR 0.7000</td>
+<td><a href="images/0005.png"><img src="images/0005.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0006.png"><img src="images/0006.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0007.png"><img src="images/0007.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0008.png"><img src="images/0008.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0009.png"><img src="images/0009.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0010.png"><img src="images/0010.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0011.png"><img src="images/0011.png"></a><br>OCR 1.0000</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0001.png"><img src="images/0001.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0012.png"><img src="images/0012.png"></a><br>OCR 0.3000</td>
+<td><a href="images/0013.png"><img src="images/0013.png"></a><br>OCR 0.6500</td>
+<td><a href="images/0014.png"><img src="images/0014.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0015.png"><img src="images/0015.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0016.png"><img src="images/0016.png"></a><br>OCR 0.8500</td>
+<td><a href="images/0017.png"><img src="images/0017.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0018.png"><img src="images/0018.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0019.png"><img src="images/0019.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0020.png"><img src="images/0020.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0021.png"><img src="images/0021.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 1 · seed 43</h2><p>A close-up of a sleek smartwatch on a wrist, the screen displaying &quot;Step Goal Achieved&quot; with a celebratory animation, set against a blurred cityscape at dusk, capturing the moment of accomplishment.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0022.png"><img src="images/0022.png"></a><br>OCR 0.3125</td>
+<td><a href="images/0023.png"><img src="images/0023.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0024.png"><img src="images/0024.png"></a><br>OCR 0.8125</td>
+<td><a href="images/0025.png"><img src="images/0025.png"></a><br>OCR 0.8750</td>
+<td><a href="images/0026.png"><img src="images/0026.png"></a><br>OCR 0.6875</td>
+<td><a href="images/0027.png"><img src="images/0027.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0028.png"><img src="images/0028.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0029.png"><img src="images/0029.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0030.png"><img src="images/0030.png"></a><br>OCR 0.9375</td>
+<td><a href="images/0031.png"><img src="images/0031.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0032.png"><img src="images/0032.png"></a><br>OCR 1.0000</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0022.png"><img src="images/0022.png"></a><br>OCR 0.3125</td>
+<td><a href="images/0033.png"><img src="images/0033.png"></a><br>OCR 0.6875</td>
+<td><a href="images/0034.png"><img src="images/0034.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0035.png"><img src="images/0035.png"></a><br>OCR 0.6875</td>
+<td><a href="images/0036.png"><img src="images/0036.png"></a><br>OCR 0.6250</td>
+<td><a href="images/0037.png"><img src="images/0037.png"></a><br>OCR 0.9375</td>
+<td><a href="images/0038.png"><img src="images/0038.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0039.png"><img src="images/0039.png"></a><br>OCR 0.9375</td>
+<td><a href="images/0040.png"><img src="images/0040.png"></a><br>OCR 0.9375</td>
+<td><a href="images/0041.png"><img src="images/0041.png"></a><br>OCR 0.9375</td>
+<td><a href="images/0042.png"><img src="images/0042.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 2 · seed 44</h2><p>A close-up photograph of an engraved silver ring with the inscription &quot;Forever Yours&quot; delicately etched into its surface, set against a soft, blurred background of romantic, warm tones.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0043.png"><img src="images/0043.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0044.png"><img src="images/0044.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0045.png"><img src="images/0045.png"></a><br>OCR 0.9167</td>
+<td><a href="images/0046.png"><img src="images/0046.png"></a><br>OCR 0.9167</td>
+<td><a href="images/0047.png"><img src="images/0047.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0048.png"><img src="images/0048.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0049.png"><img src="images/0049.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0050.png"><img src="images/0050.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0051.png"><img src="images/0051.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0052.png"><img src="images/0052.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0053.png"><img src="images/0053.png"></a><br>OCR 1.0000</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0043.png"><img src="images/0043.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0054.png"><img src="images/0054.png"></a><br>OCR 0.5000</td>
+<td><a href="images/0055.png"><img src="images/0055.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0056.png"><img src="images/0056.png"></a><br>OCR 0.8333</td>
+<td><a href="images/0057.png"><img src="images/0057.png"></a><br>OCR 0.9167</td>
+<td><a href="images/0058.png"><img src="images/0058.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0059.png"><img src="images/0059.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0060.png"><img src="images/0060.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0061.png"><img src="images/0061.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0062.png"><img src="images/0062.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0063.png"><img src="images/0063.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 3 · seed 45</h2><p>A realistic photograph of a fast food drive-thru menu board at dusk, featuring a bold and colorful advertisement that reads &quot;Try Our New Burger&quot; with an appetizing image of the burger below, set against the backdrop of a busy suburban street.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0064.png"><img src="images/0064.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0065.png"><img src="images/0065.png"></a><br>OCR 0.7333</td>
+<td><a href="images/0066.png"><img src="images/0066.png"></a><br>OCR 0.8667</td>
+<td><a href="images/0067.png"><img src="images/0067.png"></a><br>OCR 0.5333</td>
+<td><a href="images/0068.png"><img src="images/0068.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0069.png"><img src="images/0069.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0070.png"><img src="images/0070.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0071.png"><img src="images/0071.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0072.png"><img src="images/0072.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0073.png"><img src="images/0073.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0074.png"><img src="images/0074.png"></a><br>OCR 1.0000</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0064.png"><img src="images/0064.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0075.png"><img src="images/0075.png"></a><br>OCR 0.2667</td>
+<td><a href="images/0076.png"><img src="images/0076.png"></a><br>OCR 0.8667</td>
+<td><a href="images/0077.png"><img src="images/0077.png"></a><br>OCR 0.6667</td>
+<td><a href="images/0078.png"><img src="images/0078.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0079.png"><img src="images/0079.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0080.png"><img src="images/0080.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0081.png"><img src="images/0081.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0082.png"><img src="images/0082.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0083.png"><img src="images/0083.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0084.png"><img src="images/0084.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 4 · seed 46</h2><p>A weathered cave explorer&#x27;s journal page, with the phrase &quot;Lost City Near&quot; prominently written in faded ink, surrounded by sketches of ancient ruins and cryptic symbols, under a dim, mystical light.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0085.png"><img src="images/0085.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0086.png"><img src="images/0086.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0087.png"><img src="images/0087.png"></a><br>OCR 0.4167</td>
+<td><a href="images/0088.png"><img src="images/0088.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0089.png"><img src="images/0089.png"></a><br>OCR 0.5833</td>
+<td><a href="images/0090.png"><img src="images/0090.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0091.png"><img src="images/0091.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0092.png"><img src="images/0092.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0093.png"><img src="images/0093.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0094.png"><img src="images/0094.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0095.png"><img src="images/0095.png"></a><br>OCR 1.0000</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0085.png"><img src="images/0085.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0096.png"><img src="images/0096.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0097.png"><img src="images/0097.png"></a><br>OCR 0.9167</td>
+<td><a href="images/0098.png"><img src="images/0098.png"></a><br>OCR 0.6667</td>
+<td><a href="images/0099.png"><img src="images/0099.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0100.png"><img src="images/0100.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0101.png"><img src="images/0101.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0102.png"><img src="images/0102.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0103.png"><img src="images/0103.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0104.png"><img src="images/0104.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0105.png"><img src="images/0105.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 5 · seed 47</h2><p>A bustling city street at night, illuminated by neon lights, featuring a retro-futuristic robot comedy club with a vibrant marquee that reads &quot;Tonight Binary StandUp&quot;. Robots in casual attire gather outside, laughing and chatting, creating a lively atmosphere.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0106.png"><img src="images/0106.png"></a><br>OCR 0.3000</td>
+<td><a href="images/0107.png"><img src="images/0107.png"></a><br>OCR 0.1000</td>
+<td><a href="images/0108.png"><img src="images/0108.png"></a><br>OCR 0.1000</td>
+<td><a href="images/0109.png"><img src="images/0109.png"></a><br>OCR 0.1000</td>
+<td><a href="images/0110.png"><img src="images/0110.png"></a><br>OCR 0.8000</td>
+<td><a href="images/0111.png"><img src="images/0111.png"></a><br>OCR 0.3500</td>
+<td><a href="images/0112.png"><img src="images/0112.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0113.png"><img src="images/0113.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0114.png"><img src="images/0114.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0115.png"><img src="images/0115.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0116.png"><img src="images/0116.png"></a><br>OCR 0.7500</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0106.png"><img src="images/0106.png"></a><br>OCR 0.3000</td>
+<td><a href="images/0117.png"><img src="images/0117.png"></a><br>OCR 0.2500</td>
+<td><a href="images/0118.png"><img src="images/0118.png"></a><br>OCR 0.3000</td>
+<td><a href="images/0119.png"><img src="images/0119.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0120.png"><img src="images/0120.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0121.png"><img src="images/0121.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0122.png"><img src="images/0122.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0123.png"><img src="images/0123.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0124.png"><img src="images/0124.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0125.png"><img src="images/0125.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0126.png"><img src="images/0126.png"></a><br>OCR 0.9500</td>
+</tr>
+</table></section>
+<section><h2>Case 6 · seed 48</h2><p>A realistic photograph of a wrist tattoo in cursive script reading &quot;Fearless&quot;, with the skin slightly tanned and a subtle shadow under the text, set against a neutral background.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0127.png"><img src="images/0127.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0128.png"><img src="images/0128.png"></a><br>OCR 0.2500</td>
+<td><a href="images/0129.png"><img src="images/0129.png"></a><br>OCR 0.8750</td>
+<td><a href="images/0130.png"><img src="images/0130.png"></a><br>OCR 0.8750</td>
+<td><a href="images/0131.png"><img src="images/0131.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0132.png"><img src="images/0132.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0133.png"><img src="images/0133.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0134.png"><img src="images/0134.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0135.png"><img src="images/0135.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0136.png"><img src="images/0136.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0137.png"><img src="images/0137.png"></a><br>OCR 1.0000</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0127.png"><img src="images/0127.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0138.png"><img src="images/0138.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0139.png"><img src="images/0139.png"></a><br>OCR 0.8750</td>
+<td><a href="images/0140.png"><img src="images/0140.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0141.png"><img src="images/0141.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0142.png"><img src="images/0142.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0143.png"><img src="images/0143.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0144.png"><img src="images/0144.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0145.png"><img src="images/0145.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0146.png"><img src="images/0146.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0147.png"><img src="images/0147.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 7 · seed 49</h2><p>A serene cemetery under a soft, overcast sky, with a weathered gravestone prominently featuring the epitaph &quot;Loved And Remembered&quot;. Tall grass sways gently in the breeze, and a single wilting flower rests at the base of the stone.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0148.png"><img src="images/0148.png"></a><br>OCR 0.1667</td>
+<td><a href="images/0149.png"><img src="images/0149.png"></a><br>OCR 0.1667</td>
+<td><a href="images/0150.png"><img src="images/0150.png"></a><br>OCR 0.1667</td>
+<td><a href="images/0151.png"><img src="images/0151.png"></a><br>OCR 0.7222</td>
+<td><a href="images/0152.png"><img src="images/0152.png"></a><br>OCR 0.8333</td>
+<td><a href="images/0153.png"><img src="images/0153.png"></a><br>OCR 0.8889</td>
+<td><a href="images/0154.png"><img src="images/0154.png"></a><br>OCR 0.7778</td>
+<td><a href="images/0155.png"><img src="images/0155.png"></a><br>OCR 0.7778</td>
+<td><a href="images/0156.png"><img src="images/0156.png"></a><br>OCR 0.7778</td>
+<td><a href="images/0157.png"><img src="images/0157.png"></a><br>OCR 0.7778</td>
+<td><a href="images/0158.png"><img src="images/0158.png"></a><br>OCR 0.7778</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0148.png"><img src="images/0148.png"></a><br>OCR 0.1667</td>
+<td><a href="images/0159.png"><img src="images/0159.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0160.png"><img src="images/0160.png"></a><br>OCR 0.1667</td>
+<td><a href="images/0161.png"><img src="images/0161.png"></a><br>OCR 0.3333</td>
+<td><a href="images/0162.png"><img src="images/0162.png"></a><br>OCR 0.6111</td>
+<td><a href="images/0163.png"><img src="images/0163.png"></a><br>OCR 0.8889</td>
+<td><a href="images/0164.png"><img src="images/0164.png"></a><br>OCR 0.8333</td>
+<td><a href="images/0165.png"><img src="images/0165.png"></a><br>OCR 0.8889</td>
+<td><a href="images/0166.png"><img src="images/0166.png"></a><br>OCR 0.9444</td>
+<td><a href="images/0167.png"><img src="images/0167.png"></a><br>OCR 0.8889</td>
+<td><a href="images/0168.png"><img src="images/0168.png"></a><br>OCR 0.8889</td>
+</tr>
+</table></section>
+<section><h2>Case 8 · seed 50</h2><p>A futuristic urban street at night, a cyborg shop sign glowing &quot;Upgrades Available&quot; in neon blue, reflecting off wet pavements, with cybernetic pedestrians and sleek, futuristic buildings in the background.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0169.png"><img src="images/0169.png"></a><br>OCR 0.0588</td>
+<td><a href="images/0170.png"><img src="images/0170.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0171.png"><img src="images/0171.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0172.png"><img src="images/0172.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0173.png"><img src="images/0173.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0174.png"><img src="images/0174.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0175.png"><img src="images/0175.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0176.png"><img src="images/0176.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0177.png"><img src="images/0177.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0178.png"><img src="images/0178.png"></a><br>OCR 0.9412</td>
+<td><a href="images/0179.png"><img src="images/0179.png"></a><br>OCR 0.9412</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0169.png"><img src="images/0169.png"></a><br>OCR 0.0588</td>
+<td><a href="images/0180.png"><img src="images/0180.png"></a><br>OCR 0.2353</td>
+<td><a href="images/0181.png"><img src="images/0181.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0182.png"><img src="images/0182.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0183.png"><img src="images/0183.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0184.png"><img src="images/0184.png"></a><br>OCR 0.8235</td>
+<td><a href="images/0185.png"><img src="images/0185.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0186.png"><img src="images/0186.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0187.png"><img src="images/0187.png"></a><br>OCR 0.9412</td>
+<td><a href="images/0188.png"><img src="images/0188.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0189.png"><img src="images/0189.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 9 · seed 51</h2><p>A realistic photograph of a modern highway scene with a large billboard prominently displaying the text &quot;Gas Next Exit 2 Miles&quot; against a backdrop of rolling hills and clear blue sky.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0190.png"><img src="images/0190.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0191.png"><img src="images/0191.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0192.png"><img src="images/0192.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0193.png"><img src="images/0193.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0194.png"><img src="images/0194.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0195.png"><img src="images/0195.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0196.png"><img src="images/0196.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0197.png"><img src="images/0197.png"></a><br>OCR 0.9412</td>
+<td><a href="images/0198.png"><img src="images/0198.png"></a><br>OCR 0.8235</td>
+<td><a href="images/0199.png"><img src="images/0199.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0200.png"><img src="images/0200.png"></a><br>OCR 0.8235</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0190.png"><img src="images/0190.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0201.png"><img src="images/0201.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0202.png"><img src="images/0202.png"></a><br>OCR 0.6471</td>
+<td><a href="images/0203.png"><img src="images/0203.png"></a><br>OCR 0.8235</td>
+<td><a href="images/0204.png"><img src="images/0204.png"></a><br>OCR 0.8235</td>
+<td><a href="images/0205.png"><img src="images/0205.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0206.png"><img src="images/0206.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0207.png"><img src="images/0207.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0208.png"><img src="images/0208.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0209.png"><img src="images/0209.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0210.png"><img src="images/0210.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 10 · seed 52</h2><p>A high-altitude mountain summit with a wooden signpost clearly marked &quot;Elevation 8000 Feet&quot;, surrounded by rocky terrain and a backdrop of distant, snow-capped peaks under a clear blue sky.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0211.png"><img src="images/0211.png"></a><br>OCR 0.1765</td>
+<td><a href="images/0212.png"><img src="images/0212.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0213.png"><img src="images/0213.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0214.png"><img src="images/0214.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0215.png"><img src="images/0215.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0216.png"><img src="images/0216.png"></a><br>OCR 0.9412</td>
+<td><a href="images/0217.png"><img src="images/0217.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0218.png"><img src="images/0218.png"></a><br>OCR 0.9412</td>
+<td><a href="images/0219.png"><img src="images/0219.png"></a><br>OCR 0.9412</td>
+<td><a href="images/0220.png"><img src="images/0220.png"></a><br>OCR 0.9412</td>
+<td><a href="images/0221.png"><img src="images/0221.png"></a><br>OCR 0.9412</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0211.png"><img src="images/0211.png"></a><br>OCR 0.1765</td>
+<td><a href="images/0222.png"><img src="images/0222.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0223.png"><img src="images/0223.png"></a><br>OCR 0.1176</td>
+<td><a href="images/0224.png"><img src="images/0224.png"></a><br>OCR 0.5882</td>
+<td><a href="images/0225.png"><img src="images/0225.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0226.png"><img src="images/0226.png"></a><br>OCR 0.8235</td>
+<td><a href="images/0227.png"><img src="images/0227.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0228.png"><img src="images/0228.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0229.png"><img src="images/0229.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0230.png"><img src="images/0230.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0231.png"><img src="images/0231.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 11 · seed 53</h2><p>A hiking trail with a wooden signpost clearly displaying &quot;Private Property No Entry&quot;, surrounded by dense, green foliage and a winding dirt path leading into the forest.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0232.png"><img src="images/0232.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0233.png"><img src="images/0233.png"></a><br>OCR 0.1364</td>
+<td><a href="images/0234.png"><img src="images/0234.png"></a><br>OCR 0.9091</td>
+<td><a href="images/0235.png"><img src="images/0235.png"></a><br>OCR 0.9091</td>
+<td><a href="images/0236.png"><img src="images/0236.png"></a><br>OCR 0.9091</td>
+<td><a href="images/0237.png"><img src="images/0237.png"></a><br>OCR 0.9091</td>
+<td><a href="images/0238.png"><img src="images/0238.png"></a><br>OCR 0.9091</td>
+<td><a href="images/0239.png"><img src="images/0239.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0240.png"><img src="images/0240.png"></a><br>OCR 0.9545</td>
+<td><a href="images/0241.png"><img src="images/0241.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0242.png"><img src="images/0242.png"></a><br>OCR 1.0000</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0232.png"><img src="images/0232.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0243.png"><img src="images/0243.png"></a><br>OCR 0.6818</td>
+<td><a href="images/0244.png"><img src="images/0244.png"></a><br>OCR 0.5909</td>
+<td><a href="images/0245.png"><img src="images/0245.png"></a><br>OCR 0.7273</td>
+<td><a href="images/0246.png"><img src="images/0246.png"></a><br>OCR 0.9545</td>
+<td><a href="images/0247.png"><img src="images/0247.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0248.png"><img src="images/0248.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0249.png"><img src="images/0249.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0250.png"><img src="images/0250.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0251.png"><img src="images/0251.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0252.png"><img src="images/0252.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 12 · seed 54</h2><p>A realistic photo of a tech campus courtyard at night, featuring a glowing &quot;AI Training Zone&quot; hologram floating in the center, surrounded by futuristic buildings and greenery, with soft ambient lighting enhancing the futuristic atmosphere.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0253.png"><img src="images/0253.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0254.png"><img src="images/0254.png"></a><br>OCR 0.6429</td>
+<td><a href="images/0255.png"><img src="images/0255.png"></a><br>OCR 0.1429</td>
+<td><a href="images/0256.png"><img src="images/0256.png"></a><br>OCR 0.5000</td>
+<td><a href="images/0257.png"><img src="images/0257.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0258.png"><img src="images/0258.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0259.png"><img src="images/0259.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0260.png"><img src="images/0260.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0261.png"><img src="images/0261.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0262.png"><img src="images/0262.png"></a><br>OCR 0.8571</td>
+<td><a href="images/0263.png"><img src="images/0263.png"></a><br>OCR 0.8571</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0253.png"><img src="images/0253.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0264.png"><img src="images/0264.png"></a><br>OCR 0.5000</td>
+<td><a href="images/0265.png"><img src="images/0265.png"></a><br>OCR 0.7143</td>
+<td><a href="images/0266.png"><img src="images/0266.png"></a><br>OCR 0.8571</td>
+<td><a href="images/0267.png"><img src="images/0267.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0268.png"><img src="images/0268.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0269.png"><img src="images/0269.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0270.png"><img src="images/0270.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0271.png"><img src="images/0271.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0272.png"><img src="images/0272.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0273.png"><img src="images/0273.png"></a><br>OCR 0.9286</td>
+</tr>
+</table></section>
+<section><h2>Case 13 · seed 55</h2><p>A dark, decrepit haunted house with a menacing door knocker that reads &quot;Abandon All Hope&quot; in eerie, gothic lettering, set against a moonlit night with twisted, shadowy trees in the background.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0274.png"><img src="images/0274.png"></a><br>OCR 0.3571</td>
+<td><a href="images/0275.png"><img src="images/0275.png"></a><br>OCR 0.5714</td>
+<td><a href="images/0276.png"><img src="images/0276.png"></a><br>OCR 0.4286</td>
+<td><a href="images/0277.png"><img src="images/0277.png"></a><br>OCR 0.3571</td>
+<td><a href="images/0278.png"><img src="images/0278.png"></a><br>OCR 0.4286</td>
+<td><a href="images/0279.png"><img src="images/0279.png"></a><br>OCR 0.7143</td>
+<td><a href="images/0280.png"><img src="images/0280.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0281.png"><img src="images/0281.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0282.png"><img src="images/0282.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0283.png"><img src="images/0283.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0284.png"><img src="images/0284.png"></a><br>OCR 0.9286</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0274.png"><img src="images/0274.png"></a><br>OCR 0.3571</td>
+<td><a href="images/0285.png"><img src="images/0285.png"></a><br>OCR 0.1429</td>
+<td><a href="images/0286.png"><img src="images/0286.png"></a><br>OCR 0.7143</td>
+<td><a href="images/0287.png"><img src="images/0287.png"></a><br>OCR 0.7857</td>
+<td><a href="images/0288.png"><img src="images/0288.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0289.png"><img src="images/0289.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0290.png"><img src="images/0290.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0291.png"><img src="images/0291.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0292.png"><img src="images/0292.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0293.png"><img src="images/0293.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0294.png"><img src="images/0294.png"></a><br>OCR 0.9286</td>
+</tr>
+</table></section>
+<section><h2>Case 14 · seed 56</h2><p>A detailed ski resort trail map with a prominent marker labeled &quot;Black Diamond Run&quot;, set against a snowy backdrop with pine trees and skiers in the distance, capturing the thrill and challenge of the advanced slope.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0295.png"><img src="images/0295.png"></a><br>OCR 0.4000</td>
+<td><a href="images/0296.png"><img src="images/0296.png"></a><br>OCR 0.5333</td>
+<td><a href="images/0297.png"><img src="images/0297.png"></a><br>OCR 0.8667</td>
+<td><a href="images/0298.png"><img src="images/0298.png"></a><br>OCR 0.9333</td>
+<td><a href="images/0299.png"><img src="images/0299.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0300.png"><img src="images/0300.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0301.png"><img src="images/0301.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0302.png"><img src="images/0302.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0303.png"><img src="images/0303.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0304.png"><img src="images/0304.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0305.png"><img src="images/0305.png"></a><br>OCR 1.0000</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0295.png"><img src="images/0295.png"></a><br>OCR 0.4000</td>
+<td><a href="images/0306.png"><img src="images/0306.png"></a><br>OCR 0.5333</td>
+<td><a href="images/0307.png"><img src="images/0307.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0308.png"><img src="images/0308.png"></a><br>OCR 0.8667</td>
+<td><a href="images/0309.png"><img src="images/0309.png"></a><br>OCR 0.9333</td>
+<td><a href="images/0310.png"><img src="images/0310.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0311.png"><img src="images/0311.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0312.png"><img src="images/0312.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0313.png"><img src="images/0313.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0314.png"><img src="images/0314.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0315.png"><img src="images/0315.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+<section><h2>Case 15 · seed 57</h2><p>A medieval knight&#x27;s castle with a grand drawbridge, the wooden sign above it boldly declaring &quot;Trespassers Will Be Jousted&quot;, surrounded by a moat with water lilies and a cloudy sky.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<tr><th>DiffusionNFT</th>
+<td><a href="images/0316.png"><img src="images/0316.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0317.png"><img src="images/0317.png"></a><br>OCR 0.4583</td>
+<td><a href="images/0318.png"><img src="images/0318.png"></a><br>OCR 0.5000</td>
+<td><a href="images/0319.png"><img src="images/0319.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0320.png"><img src="images/0320.png"></a><br>OCR 0.7917</td>
+<td><a href="images/0321.png"><img src="images/0321.png"></a><br>OCR 0.9583</td>
+<td><a href="images/0322.png"><img src="images/0322.png"></a><br>OCR 0.8750</td>
+<td><a href="images/0323.png"><img src="images/0323.png"></a><br>OCR 0.9167</td>
+<td><a href="images/0324.png"><img src="images/0324.png"></a><br>OCR 0.9167</td>
+<td><a href="images/0325.png"><img src="images/0325.png"></a><br>OCR 0.9167</td>
+<td><a href="images/0326.png"><img src="images/0326.png"></a><br>OCR 0.9583</td>
+</tr>
+<tr><th>ROOT (K=1)</th>
+<td><a href="images/0316.png"><img src="images/0316.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0327.png"><img src="images/0327.png"></a><br>OCR 0.4167</td>
+<td><a href="images/0328.png"><img src="images/0328.png"></a><br>OCR 0.7083</td>
+<td><a href="images/0329.png"><img src="images/0329.png"></a><br>OCR 0.6250</td>
+<td><a href="images/0330.png"><img src="images/0330.png"></a><br>OCR 0.3333</td>
+<td><a href="images/0331.png"><img src="images/0331.png"></a><br>OCR 0.7917</td>
+<td><a href="images/0332.png"><img src="images/0332.png"></a><br>OCR 0.9583</td>
+<td><a href="images/0333.png"><img src="images/0333.png"></a><br>OCR 0.9583</td>
+<td><a href="images/0334.png"><img src="images/0334.png"></a><br>OCR 0.9583</td>
+<td><a href="images/0335.png"><img src="images/0335.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0336.png"><img src="images/0336.png"></a><br>OCR 1.0000</td>
+</tr>
+</table></section>
+</body></html>
