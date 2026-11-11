@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>OCR: DiffusionNFT vs ROOT (K=1)</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>OCR: DiffusionNFT vs ROOT</title>
 <style>body{font-family:sans-serif;margin:24px}table{border-collapse:collapse}td,th{padding:4px;border:1px solid #ddd}img{width:128px}section{margin:32px 0;overflow:auto}</style></head><body>
-<h1>OCR: DiffusionNFT vs ROOT (K=1)</h1><p>Fixed held-out cases and per-case seeds; EMA, 40-step Flow, CFG=1, 512×512. <strong>These 8 cases are for qualitative illustration only and do not represent statistical results on the full test set.</strong> Columns show completed training outer iterations; 0 denotes the base model. Click images for full resolution.</p>
-<section><h2>Case 0 · seed 42</h2><p>A high-fashion runway with a sleek, modern backdrop displaying &quot;Spring Collection 2024&quot;. Models walk confidently on the catwalk, showcasing vibrant, floral prints and pastel tones, under soft, ambient lighting that enhances the fresh, spring vibe.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<h1>OCR: DiffusionNFT vs ROOT</h1><p>A visualization tracking the first 50 training iterations of ROOT and DiffusionNFT using fixed prompts and seeds.</p>
+<section><h2>Case 1</h2><p>A high-fashion runway with a sleek, modern backdrop displaying &quot;Spring Collection 2024&quot;. Models walk confidently on the catwalk, showcasing vibrant, floral prints and pastel tones, under soft, ambient lighting that enhances the fresh, spring vibe.</p><table><tr><th>Outer iterations</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
 <tr><th>DiffusionNFT</th>
 <td><a href="images/0001.png"><img src="images/0001.png"></a><br>OCR 0.0000</td>
 <td><a href="images/0002.png"><img src="images/0002.png"></a><br>OCR 0.4000</td>
@@ -16,7 +16,7 @@
 <td><a href="images/0010.png"><img src="images/0010.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0011.png"><img src="images/0011.png"></a><br>OCR 1.0000</td>
 </tr>
-<tr><th>ROOT (K=1)</th>
+<tr><th>ROOT</th>
 <td><a href="images/0001.png"><img src="images/0001.png"></a><br>OCR 0.0000</td>
 <td><a href="images/0012.png"><img src="images/0012.png"></a><br>OCR 0.3000</td>
 <td><a href="images/0013.png"><img src="images/0013.png"></a><br>OCR 0.6500</td>
@@ -30,68 +30,68 @@
 <td><a href="images/0021.png"><img src="images/0021.png"></a><br>OCR 1.0000</td>
 </tr>
 </table></section>
-<section><h2>Case 1 · seed 43</h2><p>A close-up of a sleek smartwatch on a wrist, the screen displaying &quot;Step Goal Achieved&quot; with a celebratory animation, set against a blurred cityscape at dusk, capturing the moment of accomplishment.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<section><h2>Case 2</h2><p>A weathered cave explorer&#x27;s journal page, with the phrase &quot;Lost City Near&quot; prominently written in faded ink, surrounded by sketches of ancient ruins and cryptic symbols, under a dim, mystical light.</p><table><tr><th>Outer iterations</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
 <tr><th>DiffusionNFT</th>
-<td><a href="images/0022.png"><img src="images/0022.png"></a><br>OCR 0.3125</td>
+<td><a href="images/0022.png"><img src="images/0022.png"></a><br>OCR 0.0000</td>
 <td><a href="images/0023.png"><img src="images/0023.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0024.png"><img src="images/0024.png"></a><br>OCR 0.8125</td>
-<td><a href="images/0025.png"><img src="images/0025.png"></a><br>OCR 0.8750</td>
-<td><a href="images/0026.png"><img src="images/0026.png"></a><br>OCR 0.6875</td>
-<td><a href="images/0027.png"><img src="images/0027.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0024.png"><img src="images/0024.png"></a><br>OCR 0.4167</td>
+<td><a href="images/0025.png"><img src="images/0025.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0026.png"><img src="images/0026.png"></a><br>OCR 0.5833</td>
+<td><a href="images/0027.png"><img src="images/0027.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0028.png"><img src="images/0028.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0029.png"><img src="images/0029.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0030.png"><img src="images/0030.png"></a><br>OCR 0.9375</td>
+<td><a href="images/0030.png"><img src="images/0030.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0031.png"><img src="images/0031.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0032.png"><img src="images/0032.png"></a><br>OCR 1.0000</td>
 </tr>
-<tr><th>ROOT (K=1)</th>
-<td><a href="images/0022.png"><img src="images/0022.png"></a><br>OCR 0.3125</td>
-<td><a href="images/0033.png"><img src="images/0033.png"></a><br>OCR 0.6875</td>
-<td><a href="images/0034.png"><img src="images/0034.png"></a><br>OCR 0.7500</td>
-<td><a href="images/0035.png"><img src="images/0035.png"></a><br>OCR 0.6875</td>
-<td><a href="images/0036.png"><img src="images/0036.png"></a><br>OCR 0.6250</td>
-<td><a href="images/0037.png"><img src="images/0037.png"></a><br>OCR 0.9375</td>
+<tr><th>ROOT</th>
+<td><a href="images/0022.png"><img src="images/0022.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0033.png"><img src="images/0033.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0034.png"><img src="images/0034.png"></a><br>OCR 0.9167</td>
+<td><a href="images/0035.png"><img src="images/0035.png"></a><br>OCR 0.6667</td>
+<td><a href="images/0036.png"><img src="images/0036.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0037.png"><img src="images/0037.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0038.png"><img src="images/0038.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0039.png"><img src="images/0039.png"></a><br>OCR 0.9375</td>
-<td><a href="images/0040.png"><img src="images/0040.png"></a><br>OCR 0.9375</td>
-<td><a href="images/0041.png"><img src="images/0041.png"></a><br>OCR 0.9375</td>
+<td><a href="images/0039.png"><img src="images/0039.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0040.png"><img src="images/0040.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0041.png"><img src="images/0041.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0042.png"><img src="images/0042.png"></a><br>OCR 1.0000</td>
 </tr>
 </table></section>
-<section><h2>Case 2 · seed 44</h2><p>A close-up photograph of an engraved silver ring with the inscription &quot;Forever Yours&quot; delicately etched into its surface, set against a soft, blurred background of romantic, warm tones.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<section><h2>Case 3</h2><p>A bustling city street at night, illuminated by neon lights, featuring a retro-futuristic robot comedy club with a vibrant marquee that reads &quot;Tonight Binary StandUp&quot;. Robots in casual attire gather outside, laughing and chatting, creating a lively atmosphere.</p><table><tr><th>Outer iterations</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
 <tr><th>DiffusionNFT</th>
-<td><a href="images/0043.png"><img src="images/0043.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0044.png"><img src="images/0044.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0045.png"><img src="images/0045.png"></a><br>OCR 0.9167</td>
-<td><a href="images/0046.png"><img src="images/0046.png"></a><br>OCR 0.9167</td>
-<td><a href="images/0047.png"><img src="images/0047.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0048.png"><img src="images/0048.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0043.png"><img src="images/0043.png"></a><br>OCR 0.3000</td>
+<td><a href="images/0044.png"><img src="images/0044.png"></a><br>OCR 0.1000</td>
+<td><a href="images/0045.png"><img src="images/0045.png"></a><br>OCR 0.1000</td>
+<td><a href="images/0046.png"><img src="images/0046.png"></a><br>OCR 0.1000</td>
+<td><a href="images/0047.png"><img src="images/0047.png"></a><br>OCR 0.8000</td>
+<td><a href="images/0048.png"><img src="images/0048.png"></a><br>OCR 0.3500</td>
 <td><a href="images/0049.png"><img src="images/0049.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0050.png"><img src="images/0050.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0051.png"><img src="images/0051.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0052.png"><img src="images/0052.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0053.png"><img src="images/0053.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0053.png"><img src="images/0053.png"></a><br>OCR 0.7500</td>
 </tr>
-<tr><th>ROOT (K=1)</th>
-<td><a href="images/0043.png"><img src="images/0043.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0054.png"><img src="images/0054.png"></a><br>OCR 0.5000</td>
-<td><a href="images/0055.png"><img src="images/0055.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0056.png"><img src="images/0056.png"></a><br>OCR 0.8333</td>
-<td><a href="images/0057.png"><img src="images/0057.png"></a><br>OCR 0.9167</td>
-<td><a href="images/0058.png"><img src="images/0058.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0059.png"><img src="images/0059.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0060.png"><img src="images/0060.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0061.png"><img src="images/0061.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0062.png"><img src="images/0062.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0063.png"><img src="images/0063.png"></a><br>OCR 1.0000</td>
+<tr><th>ROOT</th>
+<td><a href="images/0043.png"><img src="images/0043.png"></a><br>OCR 0.3000</td>
+<td><a href="images/0054.png"><img src="images/0054.png"></a><br>OCR 0.2500</td>
+<td><a href="images/0055.png"><img src="images/0055.png"></a><br>OCR 0.3000</td>
+<td><a href="images/0056.png"><img src="images/0056.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0057.png"><img src="images/0057.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0058.png"><img src="images/0058.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0059.png"><img src="images/0059.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0060.png"><img src="images/0060.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0061.png"><img src="images/0061.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0062.png"><img src="images/0062.png"></a><br>OCR 0.9500</td>
+<td><a href="images/0063.png"><img src="images/0063.png"></a><br>OCR 0.9500</td>
 </tr>
 </table></section>
-<section><h2>Case 3 · seed 45</h2><p>A realistic photograph of a fast food drive-thru menu board at dusk, featuring a bold and colorful advertisement that reads &quot;Try Our New Burger&quot; with an appetizing image of the burger below, set against the backdrop of a busy suburban street.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<section><h2>Case 4</h2><p>A realistic photograph of a wrist tattoo in cursive script reading &quot;Fearless&quot;, with the skin slightly tanned and a subtle shadow under the text, set against a neutral background.</p><table><tr><th>Outer iterations</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
 <tr><th>DiffusionNFT</th>
-<td><a href="images/0064.png"><img src="images/0064.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0065.png"><img src="images/0065.png"></a><br>OCR 0.7333</td>
-<td><a href="images/0066.png"><img src="images/0066.png"></a><br>OCR 0.8667</td>
-<td><a href="images/0067.png"><img src="images/0067.png"></a><br>OCR 0.5333</td>
+<td><a href="images/0064.png"><img src="images/0064.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0065.png"><img src="images/0065.png"></a><br>OCR 0.2500</td>
+<td><a href="images/0066.png"><img src="images/0066.png"></a><br>OCR 0.8750</td>
+<td><a href="images/0067.png"><img src="images/0067.png"></a><br>OCR 0.8750</td>
 <td><a href="images/0068.png"><img src="images/0068.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0069.png"><img src="images/0069.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0070.png"><img src="images/0070.png"></a><br>OCR 1.0000</td>
@@ -100,11 +100,11 @@
 <td><a href="images/0073.png"><img src="images/0073.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0074.png"><img src="images/0074.png"></a><br>OCR 1.0000</td>
 </tr>
-<tr><th>ROOT (K=1)</th>
-<td><a href="images/0064.png"><img src="images/0064.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0075.png"><img src="images/0075.png"></a><br>OCR 0.2667</td>
-<td><a href="images/0076.png"><img src="images/0076.png"></a><br>OCR 0.8667</td>
-<td><a href="images/0077.png"><img src="images/0077.png"></a><br>OCR 0.6667</td>
+<tr><th>ROOT</th>
+<td><a href="images/0064.png"><img src="images/0064.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0075.png"><img src="images/0075.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0076.png"><img src="images/0076.png"></a><br>OCR 0.8750</td>
+<td><a href="images/0077.png"><img src="images/0077.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0078.png"><img src="images/0078.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0079.png"><img src="images/0079.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0080.png"><img src="images/0080.png"></a><br>OCR 1.0000</td>
@@ -114,124 +114,116 @@
 <td><a href="images/0084.png"><img src="images/0084.png"></a><br>OCR 1.0000</td>
 </tr>
 </table></section>
-<section><h2>Case 4 · seed 46</h2><p>A weathered cave explorer&#x27;s journal page, with the phrase &quot;Lost City Near&quot; prominently written in faded ink, surrounded by sketches of ancient ruins and cryptic symbols, under a dim, mystical light.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<section><h2>Case 5</h2><p>A futuristic urban street at night, a cyborg shop sign glowing &quot;Upgrades Available&quot; in neon blue, reflecting off wet pavements, with cybernetic pedestrians and sleek, futuristic buildings in the background.</p><table><tr><th>Outer iterations</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
 <tr><th>DiffusionNFT</th>
-<td><a href="images/0085.png"><img src="images/0085.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0085.png"><img src="images/0085.png"></a><br>OCR 0.0588</td>
 <td><a href="images/0086.png"><img src="images/0086.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0087.png"><img src="images/0087.png"></a><br>OCR 0.4167</td>
-<td><a href="images/0088.png"><img src="images/0088.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0089.png"><img src="images/0089.png"></a><br>OCR 0.5833</td>
-<td><a href="images/0090.png"><img src="images/0090.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0091.png"><img src="images/0091.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0092.png"><img src="images/0092.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0093.png"><img src="images/0093.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0094.png"><img src="images/0094.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0095.png"><img src="images/0095.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0087.png"><img src="images/0087.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0088.png"><img src="images/0088.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0089.png"><img src="images/0089.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0090.png"><img src="images/0090.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0091.png"><img src="images/0091.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0092.png"><img src="images/0092.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0093.png"><img src="images/0093.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0094.png"><img src="images/0094.png"></a><br>OCR 0.9412</td>
+<td><a href="images/0095.png"><img src="images/0095.png"></a><br>OCR 0.9412</td>
 </tr>
-<tr><th>ROOT (K=1)</th>
-<td><a href="images/0085.png"><img src="images/0085.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0096.png"><img src="images/0096.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0097.png"><img src="images/0097.png"></a><br>OCR 0.9167</td>
-<td><a href="images/0098.png"><img src="images/0098.png"></a><br>OCR 0.6667</td>
-<td><a href="images/0099.png"><img src="images/0099.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0100.png"><img src="images/0100.png"></a><br>OCR 1.0000</td>
+<tr><th>ROOT</th>
+<td><a href="images/0085.png"><img src="images/0085.png"></a><br>OCR 0.0588</td>
+<td><a href="images/0096.png"><img src="images/0096.png"></a><br>OCR 0.2353</td>
+<td><a href="images/0097.png"><img src="images/0097.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0098.png"><img src="images/0098.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0099.png"><img src="images/0099.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0100.png"><img src="images/0100.png"></a><br>OCR 0.8235</td>
 <td><a href="images/0101.png"><img src="images/0101.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0102.png"><img src="images/0102.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0103.png"><img src="images/0103.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0102.png"><img src="images/0102.png"></a><br>OCR 0.8824</td>
+<td><a href="images/0103.png"><img src="images/0103.png"></a><br>OCR 0.9412</td>
 <td><a href="images/0104.png"><img src="images/0104.png"></a><br>OCR 1.0000</td>
 <td><a href="images/0105.png"><img src="images/0105.png"></a><br>OCR 1.0000</td>
 </tr>
 </table></section>
-<section><h2>Case 5 · seed 47</h2><p>A bustling city street at night, illuminated by neon lights, featuring a retro-futuristic robot comedy club with a vibrant marquee that reads &quot;Tonight Binary StandUp&quot;. Robots in casual attire gather outside, laughing and chatting, creating a lively atmosphere.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<section><h2>Case 6</h2><p>A realistic photograph of a modern highway scene with a large billboard prominently displaying the text &quot;Gas Next Exit 2 Miles&quot; against a backdrop of rolling hills and clear blue sky.</p><table><tr><th>Outer iterations</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
 <tr><th>DiffusionNFT</th>
-<td><a href="images/0106.png"><img src="images/0106.png"></a><br>OCR 0.3000</td>
-<td><a href="images/0107.png"><img src="images/0107.png"></a><br>OCR 0.1000</td>
-<td><a href="images/0108.png"><img src="images/0108.png"></a><br>OCR 0.1000</td>
-<td><a href="images/0109.png"><img src="images/0109.png"></a><br>OCR 0.1000</td>
-<td><a href="images/0110.png"><img src="images/0110.png"></a><br>OCR 0.8000</td>
-<td><a href="images/0111.png"><img src="images/0111.png"></a><br>OCR 0.3500</td>
-<td><a href="images/0112.png"><img src="images/0112.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0113.png"><img src="images/0113.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0114.png"><img src="images/0114.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0115.png"><img src="images/0115.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0116.png"><img src="images/0116.png"></a><br>OCR 0.7500</td>
+<td><a href="images/0106.png"><img src="images/0106.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0107.png"><img src="images/0107.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0108.png"><img src="images/0108.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0109.png"><img src="images/0109.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0110.png"><img src="images/0110.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0111.png"><img src="images/0111.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0112.png"><img src="images/0112.png"></a><br>OCR 0.7059</td>
+<td><a href="images/0113.png"><img src="images/0113.png"></a><br>OCR 0.9412</td>
+<td><a href="images/0114.png"><img src="images/0114.png"></a><br>OCR 0.8235</td>
+<td><a href="images/0115.png"><img src="images/0115.png"></a><br>OCR 0.7647</td>
+<td><a href="images/0116.png"><img src="images/0116.png"></a><br>OCR 0.8235</td>
 </tr>
-<tr><th>ROOT (K=1)</th>
-<td><a href="images/0106.png"><img src="images/0106.png"></a><br>OCR 0.3000</td>
-<td><a href="images/0117.png"><img src="images/0117.png"></a><br>OCR 0.2500</td>
-<td><a href="images/0118.png"><img src="images/0118.png"></a><br>OCR 0.3000</td>
-<td><a href="images/0119.png"><img src="images/0119.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0120.png"><img src="images/0120.png"></a><br>OCR 0.9500</td>
-<td><a href="images/0121.png"><img src="images/0121.png"></a><br>OCR 0.9500</td>
-<td><a href="images/0122.png"><img src="images/0122.png"></a><br>OCR 0.9500</td>
-<td><a href="images/0123.png"><img src="images/0123.png"></a><br>OCR 0.9500</td>
-<td><a href="images/0124.png"><img src="images/0124.png"></a><br>OCR 0.9500</td>
-<td><a href="images/0125.png"><img src="images/0125.png"></a><br>OCR 0.9500</td>
-<td><a href="images/0126.png"><img src="images/0126.png"></a><br>OCR 0.9500</td>
+<tr><th>ROOT</th>
+<td><a href="images/0106.png"><img src="images/0106.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0117.png"><img src="images/0117.png"></a><br>OCR 0.5294</td>
+<td><a href="images/0118.png"><img src="images/0118.png"></a><br>OCR 0.6471</td>
+<td><a href="images/0119.png"><img src="images/0119.png"></a><br>OCR 0.8235</td>
+<td><a href="images/0120.png"><img src="images/0120.png"></a><br>OCR 0.8235</td>
+<td><a href="images/0121.png"><img src="images/0121.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0122.png"><img src="images/0122.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0123.png"><img src="images/0123.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0124.png"><img src="images/0124.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0125.png"><img src="images/0125.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0126.png"><img src="images/0126.png"></a><br>OCR 1.0000</td>
 </tr>
 </table></section>
-<section><h2>Case 6 · seed 48</h2><p>A realistic photograph of a wrist tattoo in cursive script reading &quot;Fearless&quot;, with the skin slightly tanned and a subtle shadow under the text, set against a neutral background.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<section><h2>Case 7</h2><p>A realistic photo of a tech campus courtyard at night, featuring a glowing &quot;AI Training Zone&quot; hologram floating in the center, surrounded by futuristic buildings and greenery, with soft ambient lighting enhancing the futuristic atmosphere.</p><table><tr><th>Outer iterations</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
 <tr><th>DiffusionNFT</th>
-<td><a href="images/0127.png"><img src="images/0127.png"></a><br>OCR 0.7500</td>
-<td><a href="images/0128.png"><img src="images/0128.png"></a><br>OCR 0.2500</td>
-<td><a href="images/0129.png"><img src="images/0129.png"></a><br>OCR 0.8750</td>
-<td><a href="images/0130.png"><img src="images/0130.png"></a><br>OCR 0.8750</td>
-<td><a href="images/0131.png"><img src="images/0131.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0132.png"><img src="images/0132.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0133.png"><img src="images/0133.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0127.png"><img src="images/0127.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0128.png"><img src="images/0128.png"></a><br>OCR 0.6429</td>
+<td><a href="images/0129.png"><img src="images/0129.png"></a><br>OCR 0.1429</td>
+<td><a href="images/0130.png"><img src="images/0130.png"></a><br>OCR 0.5000</td>
+<td><a href="images/0131.png"><img src="images/0131.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0132.png"><img src="images/0132.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0133.png"><img src="images/0133.png"></a><br>OCR 0.9286</td>
 <td><a href="images/0134.png"><img src="images/0134.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0135.png"><img src="images/0135.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0136.png"><img src="images/0136.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0137.png"><img src="images/0137.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0135.png"><img src="images/0135.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0136.png"><img src="images/0136.png"></a><br>OCR 0.8571</td>
+<td><a href="images/0137.png"><img src="images/0137.png"></a><br>OCR 0.8571</td>
 </tr>
-<tr><th>ROOT (K=1)</th>
-<td><a href="images/0127.png"><img src="images/0127.png"></a><br>OCR 0.7500</td>
-<td><a href="images/0138.png"><img src="images/0138.png"></a><br>OCR 0.7500</td>
-<td><a href="images/0139.png"><img src="images/0139.png"></a><br>OCR 0.8750</td>
-<td><a href="images/0140.png"><img src="images/0140.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0141.png"><img src="images/0141.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0142.png"><img src="images/0142.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0143.png"><img src="images/0143.png"></a><br>OCR 1.0000</td>
+<tr><th>ROOT</th>
+<td><a href="images/0127.png"><img src="images/0127.png"></a><br>OCR 0.0000</td>
+<td><a href="images/0138.png"><img src="images/0138.png"></a><br>OCR 0.5000</td>
+<td><a href="images/0139.png"><img src="images/0139.png"></a><br>OCR 0.7143</td>
+<td><a href="images/0140.png"><img src="images/0140.png"></a><br>OCR 0.8571</td>
+<td><a href="images/0141.png"><img src="images/0141.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0142.png"><img src="images/0142.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0143.png"><img src="images/0143.png"></a><br>OCR 0.9286</td>
 <td><a href="images/0144.png"><img src="images/0144.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0145.png"><img src="images/0145.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0146.png"><img src="images/0146.png"></a><br>OCR 1.0000</td>
-<td><a href="images/0147.png"><img src="images/0147.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0145.png"><img src="images/0145.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0146.png"><img src="images/0146.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0147.png"><img src="images/0147.png"></a><br>OCR 0.9286</td>
 </tr>
 </table></section>
-<section><h2>Case 7 · seed 49</h2><p>A serene cemetery under a soft, overcast sky, with a weathered gravestone prominently featuring the epitaph &quot;Loved And Remembered&quot;. Tall grass sways gently in the breeze, and a single wilting flower rests at the base of the stone.</p><table><tr><th>Method</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
+<section><h2>Case 8</h2><p>A dark, decrepit haunted house with a menacing door knocker that reads &quot;Abandon All Hope&quot; in eerie, gothic lettering, set against a moonlit night with twisted, shadowy trees in the background.</p><table><tr><th>Outer iterations</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th></tr>
 <tr><th>DiffusionNFT</th>
-<td><a href="images/0148.png"><img src="images/0148.png"></a><br>OCR 0.1667</td>
-<td><a href="images/0149.png"><img src="images/0149.png"></a><br>OCR 0.1667</td>
-<td><a href="images/0150.png"><img src="images/0150.png"></a><br>OCR 0.1667</td>
-<td><a href="images/0151.png"><img src="images/0151.png"></a><br>OCR 0.7222</td>
-<td><a href="images/0152.png"><img src="images/0152.png"></a><br>OCR 0.8333</td>
-<td><a href="images/0153.png"><img src="images/0153.png"></a><br>OCR 0.8889</td>
-<td><a href="images/0154.png"><img src="images/0154.png"></a><br>OCR 0.7778</td>
-<td><a href="images/0155.png"><img src="images/0155.png"></a><br>OCR 0.7778</td>
-<td><a href="images/0156.png"><img src="images/0156.png"></a><br>OCR 0.7778</td>
-<td><a href="images/0157.png"><img src="images/0157.png"></a><br>OCR 0.7778</td>
-<td><a href="images/0158.png"><img src="images/0158.png"></a><br>OCR 0.7778</td>
+<td><a href="images/0148.png"><img src="images/0148.png"></a><br>OCR 0.3571</td>
+<td><a href="images/0149.png"><img src="images/0149.png"></a><br>OCR 0.5714</td>
+<td><a href="images/0150.png"><img src="images/0150.png"></a><br>OCR 0.4286</td>
+<td><a href="images/0151.png"><img src="images/0151.png"></a><br>OCR 0.3571</td>
+<td><a href="images/0152.png"><img src="images/0152.png"></a><br>OCR 0.4286</td>
+<td><a href="images/0153.png"><img src="images/0153.png"></a><br>OCR 0.7143</td>
+<td><a href="images/0154.png"><img src="images/0154.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0155.png"><img src="images/0155.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0156.png"><img src="images/0156.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0157.png"><img src="images/0157.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0158.png"><img src="images/0158.png"></a><br>OCR 0.9286</td>
 </tr>
-<tr><th>ROOT (K=1)</th>
-<td><a href="images/0148.png"><img src="images/0148.png"></a><br>OCR 0.1667</td>
-<td><a href="images/0159.png"><img src="images/0159.png"></a><br>OCR 0.0000</td>
-<td><a href="images/0160.png"><img src="images/0160.png"></a><br>OCR 0.1667</td>
-<td><a href="images/0161.png"><img src="images/0161.png"></a><br>OCR 0.3333</td>
-<td><a href="images/0162.png"><img src="images/0162.png"></a><br>OCR 0.6111</td>
-<td><a href="images/0163.png"><img src="images/0163.png"></a><br>OCR 0.8889</td>
-<td><a href="images/0164.png"><img src="images/0164.png"></a><br>OCR 0.8333</td>
-<td><a href="images/0165.png"><img src="images/0165.png"></a><br>OCR 0.8889</td>
-<td><a href="images/0166.png"><img src="images/0166.png"></a><br>OCR 0.9444</td>
-<td><a href="images/0167.png"><img src="images/0167.png"></a><br>OCR 0.8889</td>
-<td><a href="images/0168.png"><img src="images/0168.png"></a><br>OCR 0.8889</td>
+<tr><th>ROOT</th>
+<td><a href="images/0148.png"><img src="images/0148.png"></a><br>OCR 0.3571</td>
+<td><a href="images/0159.png"><img src="images/0159.png"></a><br>OCR 0.1429</td>
+<td><a href="images/0160.png"><img src="images/0160.png"></a><br>OCR 0.7143</td>
+<td><a href="images/0161.png"><img src="images/0161.png"></a><br>OCR 0.7857</td>
+<td><a href="images/0162.png"><img src="images/0162.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0163.png"><img src="images/0163.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0164.png"><img src="images/0164.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0165.png"><img src="images/0165.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0166.png"><img src="images/0166.png"></a><br>OCR 1.0000</td>
+<td><a href="images/0167.png"><img src="images/0167.png"></a><br>OCR 0.9286</td>
+<td><a href="images/0168.png"><img src="images/0168.png"></a><br>OCR 0.9286</td>
 </tr>
 </table></section>
-
-
-
-
-
-
-
-
 </body></html>
